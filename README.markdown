@@ -23,7 +23,7 @@ If your server runs Linux and has git installed, there is an easy solution to ke
 1. Run `crontab -e` in your shell. A file editor opens up.
 2. Add the following line to the end of the file:
 
-		*	4	* * * cd /path/to/tzmirror/; /usr/bin/git fetch --recurse-submodules origin
+		*	4	* * * cd /path/to/tzmirror/; /usr/bin/git fetch origin; /usr/bin/git submodule update
 				
 	Note: ('/path/to/tzmirror/' has to be replaced with the actual path of the folder, where you cloned the repository into)
 		
