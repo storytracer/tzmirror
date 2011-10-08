@@ -16,10 +16,6 @@ It's simple: Clone this repository to a folder on your webserver:
 	cd /path/to/tzmirror/
 	git clone https://github.com/canbuffi/tzmirror.git
 
-## List of Known Mirrors
-
-After you have set up your mirror, please add the URL to the list of known mirrors in the [wiki](https://github.com/canbuffi/tzmirror/wiki).
-
 ## Keeping the mirror up-to-date
 
 If your server runs Linux and has git installed, there is an easy solution to keep your mirror up-to-date:
@@ -34,6 +30,10 @@ If your server runs Linux and has git installed, there is an easy solution to ke
 3. Save the file.
 
 The repository is now checked for updates automatically, every night at 4 AM.
+
+## List of Known Mirrors
+
+After you have set up your mirror, please add the URL to the list of known mirrors in the [wiki](https://github.com/canbuffi/tzmirror/wiki).
 
 ## *tz* database files
 
