@@ -13,8 +13,8 @@ Does this outrage you? You can help: Set up a mirror of the *tz* database files.
 
 It's simple: Clone this repository to a folder on your webserver:
 
-	cd /path/to/tzmirror/
-	git clone --recursive https://github.com/canbuffi/tzmirror.git
+	$ cd /var/www/example.com/
+	$ git clone --recursive https://github.com/canbuffi/tzmirror.git
 
 ## Keeping the mirror up-to-date
 
@@ -23,13 +23,18 @@ If your server runs Linux and has git installed, there is an easy solution to ke
 1. Run `crontab -e` in your shell. A file editor opens up.
 2. Add the following line to the end of the file:
 
-		*	4	* * * cd /path/to/tzmirror/; /usr/bin/git fetch origin
+		*	4	* * * cd /var/www/example.com/tzmirror/; /usr/bin/git fetch origin
 				
-	Note: ('/path/to/tzmirror/' has to be replaced with the actual path of the folder, where you cloned the repository into)
+	Note: ('/var/www/example.com/' has to be replaced with the actual path of the folder, where you cloned the repository into)
 		
 3. Save the file.
 
 The repository is now checked for updates automatically, every night at 4 AM.
+
+If you want to check for changes manually, you can do it by running these commands in your shell:
+
+	$ cd /var/www/example.com/tzmirror/
+	$ git fetch origin
 
 ## List of Known Mirrors
 
