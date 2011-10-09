@@ -1,7 +1,7 @@
 Mirror of the *tz* Database
 ===============================================
 
-On 2011-09-30, a astrology(!) company called "Astrolabe, Inc" filed a lawsuit against the maintainers of the [time zone database](http://www.twinsun.com/tz/tz-link.htm), claiming the database infringed their copyright. The result of this lawsuit was that the [FTP server](ftp://elsie.nci.nih.gov/pub) and the [*tz* mailing list](http://news.gmane.org/gmane.comp.time.tz) were shut down at 2011-10-06.
+On 2011-09-30, an astrology(!) company called "Astrolabe, Inc" filed a lawsuit against the maintainers of the [time zone database](http://www.twinsun.com/tz/tz-link.htm), claiming the database infringed their copyright. The result of this lawsuit was that the [FTP server](ftp://elsie.nci.nih.gov/pub) and the [*tz* mailing list](http://news.gmane.org/gmane.comp.time.tz) were shut down at 2011-10-06.
 
 More info about this madness is available [here](http://www.thedailyparker.com/CommentView,guid,c5f28bae-4b9c-41ea-b7b7-8891ad63c938.aspx "The Daily Parker - Time zone database shut down").
 
