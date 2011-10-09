@@ -16,6 +16,8 @@ It's simple: Clone this repository to a folder on your webserver:
 	$ cd /var/www/example.com/
 	$ git clone --recursive https://github.com/canbuffi/tzmirror.git
 
+Done! Your mirror should be up and running under `http://www.example.com/tzmirror/`.
+
 ## Keeping the mirror up-to-date
 
 If your server runs Linux and has git installed, there is an easy solution to keep your mirror up-to-date:
