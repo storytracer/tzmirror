@@ -36,7 +36,8 @@ The repository is now checked for updates automatically, every night at 4 AM.
 If you want to check for changes manually, you can do it by running these commands in your shell:
 
 	$> cd /var/www/example.com/tzmirror/
-	$> git fetch origin
+	$> git pull origin
+	$> git submodule update
 
 ## List of Known Mirrors
 
