@@ -307,6 +307,7 @@ cd0196ffd145eb7c7a0ed636db7cd652224a2749  ./oldtz/tzdata2011h.tar.gz
 f0be74619b61a7a000116c33022a9256bbda4e53  ./oldtz/tzdata2011j.tar.gz
 56f0847a10eaea672be19984b4b403e29631c98b  ./oldtz/tzdata2011k.tar.gz
 c6740ec9645b78750e2109b6d42cd283e16988d7  ./oldtz/tzdata2011l.tar.gz
+e6374cd41c5bffd7ade27c365c4bdc5213bb9d85  ./oldtz/tzdata2011m.tar.gz
 b3d617911156e164ee413699cff297f9b34d2e96  ./oldtz/tzdata93b.tar.Z
 af6c110a6a459aca02615b83dc0eb30a5002173d  ./oldtz/tzdata93c.tar.Z
 7ac4880663bb35f32f9bf9f3c9c7455602e30bcf  ./oldtz/tzdata93d.tar.Z
@@ -340,4 +341,4 @@ a3843efbcc79b0eb53ff4adfc33f6f21ed9e3c89  ./oldtz/tzdata96d.tar.gz
 152e3014edab15f391e2f6f2f7c33998bd6b29aa  ./oldtz/tzdata96k.tar.gz
 4765771e81acccf7c0e04121e2ca0cdfaa242904  ./oldtz/tzdatabeta.tar.gz
 4f58cede47df8bba55b37982d8b38cd65266d412  ./tzcode2011i.tar.gz
-c6740ec9645b78750e2109b6d42cd283e16988d7  ./tzdata2011l.tar.gz
+e6374cd41c5bffd7ade27c365c4bdc5213bb9d85  ./tzdata2011m.tar.gz
