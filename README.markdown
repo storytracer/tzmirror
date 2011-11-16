@@ -25,7 +25,7 @@ If your server runs Linux and has git installed, there is an easy solution to ke
 1. Run `$> crontab -e` in your shell. A file editor opens up.
 2. Add the following line to the end of the file:
 
-		*	4	* * * cd /var/www/example.com/tzmirror/ && (/usr/bin/git pull origin; /usr/bin/git submodule update)
+		0	4	* * * cd /var/www/example.com/tzmirror/ && (/usr/bin/git pull origin; /usr/bin/git submodule update)
 
 	Note: ('/var/www/example.com/' has to be replaced with the actual path of the folder, where you cloned the repository into)
 
